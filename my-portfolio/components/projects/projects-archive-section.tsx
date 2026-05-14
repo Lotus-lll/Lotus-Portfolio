@@ -10,8 +10,8 @@ const imgAI011 = "/images/home/projects/project-06-cover.png";
 const imgSingleStoreKing = "/images/home/projects/project-07-cover.png";
 const imgMockup19 = "/images/home/projects/project-08-cover.png";
 const imgMockupRibbon12 = "/images/home/projects/project-09-cover.png";
-const imgViPage00011 = "/images/home/projects/project-08-cover.png";
-const img441 = "/images/home/projects/project-09-cover.png";
+const imgViPage00011 = "/images/home/projects/project-leading-group-vi-cover.png";
+const img441 = "/images/home/projects/project-h5-campaign-cover.png";
 const imgAigc011 = "/images/home/projects/project-aigc-cover-v2.png";
 const imgEllipse1 = "/home/list-marker-dot.png";
 

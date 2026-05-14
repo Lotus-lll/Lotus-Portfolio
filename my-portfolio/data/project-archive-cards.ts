@@ -107,8 +107,8 @@ export const projectArchiveCards: ProjectArchiveCard[] = [
     tags: "#VI设计 #品牌视觉 #手册 #企业品牌",
     title: "领航集团VI",
     desc: "#一款为超过30万房东约100万的民宿、酒店、公寓、露营地和文旅项目进行赋能，提供智能化、自动化、个性化配置。",
-    img: "/images/home/projects/project-08-cover.png",
-    imgOffset: "left-[0.15px] top-[-0.05px] h-[216px] w-[384px]",
+    img: "/images/home/projects/project-leading-group-vi-cover.png",
+    imgOffset: "left-[0.15px] top-[-0.05px] h-[216px] w-[382px]",
   },
   {
     slug: "h5-campaign-design",
@@ -117,8 +117,8 @@ export const projectArchiveCards: ProjectArchiveCard[] = [
     tags: "#H5 #活动设计 #运营 #视觉传播",
     title: "H5活动设计",
     desc: "#一款为超过30万房东约100万的民宿、酒店、公寓、露营地和文旅项目进行赋能，提供智能化、自动化、个性化配置。",
-    img: "/images/home/projects/project-09-cover.png",
-    imgOffset: "left-[-4.66px] top-[-0.05px] h-[239px] w-[425px]",
+    img: "/images/home/projects/project-h5-campaign-cover.png",
+    imgOffset: "left-[0.15px] top-[-0.05px] h-[216px] w-[382px]",
   },
   {
     slug: "aigc-output-design",

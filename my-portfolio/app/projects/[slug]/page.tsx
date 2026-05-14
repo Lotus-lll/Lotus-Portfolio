@@ -106,9 +106,10 @@ export default async function ProjectDetailPage({ params }: ProjectDetailProps) 
                 <Image
                   src={image.src}
                   alt={image.alt ?? `${project.title}-${index + 1}`}
-                  width={1600}
-                  height={1000}
-                  unoptimized
+                  width={1920}
+                  height={1080}
+                  sizes="(max-width: 1472px) 100vw, 1472px"
+                  priority={index === 0}
                   className="h-auto w-full object-cover"
                 />
               </div>
