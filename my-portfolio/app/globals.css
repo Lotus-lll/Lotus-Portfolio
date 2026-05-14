@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f7f7f5;
+  --foreground: #111111;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-open-sans), Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes lotus-float {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -10px, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes lotus-pulse {
+  0% {
+    opacity: 0.45;
+    transform: scale(0.95);
+  }
+  50% {
+    opacity: 0.78;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0.45;
+    transform: scale(0.95);
+  }
+}
+
+.lotus-float {
+  animation: lotus-float 6.8s ease-in-out infinite;
+}
+
+.lotus-pulse {
+  animation: lotus-pulse 5.8s ease-in-out infinite;
+}
+
+@keyframes nr2-marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.nr2-marquee {
+  animation: nr2-marquee 50s linear infinite;
+  will-change: transform;
+}
+
+@keyframes backtop-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.backtop-float {
+  animation: backtop-float 2.8s ease-in-out infinite;
+}
+
+.nr1-desktop-shell {
+  position: relative;
+  /* 与 nr1 画布高度（817.67px 设计稿）+ 缩放留白一致 */
+  height: 900px;
+}
+
+.nr1-desktop-canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform-origin: top left;
+}
+
+.desktop-scale-shell {
+  position: relative;
+  height: var(--desktop-base-height);
+}
+
+.desktop-scale-canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform-origin: top left;
+}
+
