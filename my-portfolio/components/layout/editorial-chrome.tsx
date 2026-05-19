@@ -29,9 +29,7 @@ export function EditorialHeader() {
               PORTFOLIO
             </p>
             <p className="mt-3 max-w-[420px] text-[12px] font-semibold leading-[20px]">
-              Presented by Graduate School of Letters,
-              <br />
-              Kyoto University
+              Design goes beyond just &quot;not looking good&quot;
             </p>
           </div>
 
